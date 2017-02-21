@@ -4,9 +4,12 @@ class MainSction extends Component {
   
   render() {
     return(
-      <div className="mainSection">
-        <h1>Infordio</h1>
-        <p>新卒HP</p>
+      <div>
+        <div className="human1"></div>
+        <div className="human2"></div>
+        <div className="human3"></div>
+        <div className="human4"></div>
+        <div className="human5"></div>
       </div>
     )
   }

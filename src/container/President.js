@@ -7,7 +7,7 @@ class President extends Component {
 
       <div className="">
         <PresidentSection />
-	  </div>
+	    </div>
     );
   }
 }

@@ -23,12 +23,45 @@
   to { transform: rotate(360deg); }
 }
 
-.sidemenu {
+.headerButtons {
   list-style: none;
-  border-right: 1px solid;
 }
 
-.sidebarContent {
-  float: left;
+.headerButton {
+  display: inline-block;
+}
+
+.mainSection {
+  width: 100%;
+  text-align: center;
+}
+
+.human1 {
   width: 20%;
+  float: left;
+  background-image: url("./images/human1.jpg");
+}
+
+.human2 {
+  width: 20%;
+  float: left;
+  background-image: url("./images/human2.jpg");
+}
+
+.human3 {
+  width: 20%;
+  float: left;
+  background-image: url("./images/human3.jpg");
+}
+
+.human4 {
+  width: 20%;
+  float: left;
+  background-image: url("./images/human4.jpg");
+}
+
+.human5 {
+  width: 20%;
+  float: left;
+  background-image: url("./images/human5.jpg");
 }

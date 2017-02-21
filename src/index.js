@@ -6,7 +6,7 @@ injectTapEventPlugin();
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import SideBar from './component/SideBar';
+import Header from './component/Header';
 import President from './container/President';
 import './index.css';
 import { Router, Route, browserHistory, IndexRoute　} from 'react-router';
@@ -18,7 +18,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 const Main = () => (
   <MuiThemeProvider muiTheme={getMuiTheme()}>
     <Router history={browserHistory}>
-      <Route path="/" component={SideBar}>
+      <Route path="/" component={Header}>
         <IndexRoute component={App} />
         <Route path="/President" component={President} />
       </Route>
